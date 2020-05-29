@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/inicio">
+
+    <fragment
+        android:id="@+id/fragment_registrate"
+        android:name="com.example.myplace.fragment_registrate"
+        android:label="fragment_registrate"
+        tools:layout="@layout/fragment_registrate" >
+        <action
+            android:id="@+id/action_fragment_registrate_to_buscador"
+            app:destination="@id/buscador" />
+    </fragment>
+    <fragment
+        android:id="@+id/inicio"
+        android:name="com.example.myplace.Inicio"
+        android:label="Inicio"
+        tools:layout="@layout/fragment_inicio">
+        <action
+            android:id="@+id/action_inicio_to_fragment_registrate"
+            app:destination="@id/fragment_registrate" />
+        <action
+            android:id="@+id/action_inicio_to_buscador"
+            app:destination="@id/buscador" />
+    </fragment>
+    <activity
+        android:id="@+id/buscador"
+        android:name="com.example.myplace.Buscador"
+        android:label="app_bar_buscador"
+        tools:layout="@layout/app_bar_buscador" />
+</navigation>

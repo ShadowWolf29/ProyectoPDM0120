@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="Tipo_de_pago">
+        <item>Elegir</item>
+        <item>Contado</item>
+        <item>Por cuotas con prima</item>
+        <item>Por cuotas</item>
+    </string-array>
+    <string-array name="Departamento">
+        <item>Elegir</item>
+        <item>San Salvador</item>
+        <item>San Miguel</item>
+        <item>Chalatenango</item>
+    </string-array>
+    <string-array name="Disponivilidad">
+        <item>Elegir</item>
+        <item>Parcial</item>
+        <item>Total</item>
+        <item>Sin disponivilidad</item>
+    </string-array>
+</resources>
