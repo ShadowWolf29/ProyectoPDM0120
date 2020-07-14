@@ -14,49 +14,13 @@
         tools:context=".ui.home.HomeFragment">
 
         <TextView
-            android:id="@+id/textView19"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="--------"
-            android:textColor="@color/cardview_light_background"
-            android:textSize="42dp"
-            app:layout_constraintBottom_toBottomOf="@+id/subtema6"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/subtema6"
-            app:layout_constraintTop_toTopOf="@+id/subtema6" />
-
-        <TextView
-            android:id="@+id/textView20"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="--------"
-            android:textColor="@color/cardview_light_background"
-            android:textSize="42dp"
-            app:layout_constraintBottom_toBottomOf="@+id/subtema6"
-            app:layout_constraintEnd_toStartOf="@+id/subtema6"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="@+id/subtema6" />
-
-        <TextView
-            android:id="@+id/subtema6"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:padding="8dp"
-            android:text="Especificaciones"
-            android:textColor="@color/cardview_light_background"
-            android:textSize="18sp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/spinner"></TextView>
-
-        <TextView
             android:id="@+id/subtema3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="8dp"
-            android:text="Generalidades"
+            android:text="Departamento"
             android:textColor="@color/cardview_light_background"
-            android:textSize="14sp"
+            android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/subtema2"></TextView>
@@ -68,9 +32,9 @@
             android:layout_marginEnd="12dp"
             android:layout_marginRight="12dp"
             android:padding="8dp"
-            android:text="Generalidades"
+            android:text="Pago"
             android:textColor="@color/cardview_light_background"
-            android:textSize="14sp"
+            android:textSize="18sp"
             app:layout_constraintEnd_toStartOf="@+id/subtema3"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/subtema2"></TextView>
@@ -80,9 +44,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="8dp"
-            android:text="Generalidades"
+            android:text="Construción"
             android:textColor="@color/cardview_light_background"
-            android:textSize="14sp"
+            android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/subtema3"
             app:layout_constraintTop_toBottomOf="@+id/subtema2"></TextView>
@@ -95,7 +59,7 @@
             android:padding="8dp"
             android:text="Generalidades"
             android:textColor="@color/cardview_light_background"
-            android:textSize="18sp"
+            android:textSize="24sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView10"></TextView>
@@ -104,9 +68,10 @@
             android:id="@+id/textView12"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="10 - 100 km"
+            android:text="1 - 10 km"
             android:textColor="@color/cardview_light_background"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.397"
             app:layout_constraintStart_toEndOf="@+id/textView10"
             app:layout_constraintTop_toBottomOf="@+id/textView11" />
 
@@ -116,6 +81,7 @@
             android:layout_height="wrap_content"
             android:text="Grande"
             android:textColor="@color/cardview_light_background"
+            android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/textView9"
             app:layout_constraintTop_toBottomOf="@+id/floatingActionButton3" />
@@ -163,7 +129,7 @@
             android:padding="16dp"
             android:text="Buscar terreno"
             android:textColor="@color/cardview_light_background"
-            android:textSize="24sp"
+            android:textSize="30sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             tools:layout_editor_absoluteY="1dp"></TextView>
@@ -175,7 +141,7 @@
             android:padding="8dp"
             android:text="Tamaño del terreno"
             android:textColor="@color/cardview_light_background"
-            android:textSize="18sp"
+            android:textSize="24sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/Inicio"></TextView>
@@ -186,6 +152,7 @@
             android:layout_height="wrap_content"
             android:text="Pequeño"
             android:textColor="@color/cardview_light_background"
+            android:textSize="18sp"
             app:layout_constraintEnd_toStartOf="@+id/textView9"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/floatingActionButton" />
@@ -194,9 +161,10 @@
             android:id="@+id/textView8"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="500 - 1000 mts"
+            android:text="10 - 500 mts"
             android:textColor="@color/cardview_light_background"
             app:layout_constraintEnd_toStartOf="@+id/textView10"
+            app:layout_constraintHorizontal_bias="0.676"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView6" />
 
@@ -206,6 +174,7 @@
             android:layout_height="wrap_content"
             android:text="Mediano"
             android:textColor="@color/cardview_light_background"
+            android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/floatingActionButton2" />
@@ -214,7 +183,7 @@
             android:id="@+id/textView10"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="1 - 10 km"
+            android:text="500 mts - 1 km"
             android:textColor="@color/cardview_light_background"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -250,44 +219,11 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/subtema4" />
 
-        <EditText
-            android:id="@+id/editText3"
-            android:layout_width="380dp"
-            android:layout_height="48dp"
-            android:ems="10"
-            android:inputType="textPersonName"
-            android:shadowColor="@color/colorAccent"
-            android:text="Vist"
-            android:textColor="@color/cardview_light_background"
-            android:textColorHint="@android:color/background_light"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/subtema6" />
-
-        <ImageView
-            android:id="@+id/imageView2"
-            android:layout_width="397dp"
-            android:layout_height="177dp"
-            android:padding="8dp"
-            android:src="@drawable/chips"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageView5" />
-
-        <ImageView
-            android:id="@+id/imageView5"
-            android:layout_width="110dp"
-            android:layout_height="26dp"
-            android:src="@drawable/chip_selected"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.026"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/editText3" />
-
         <Button
             android:id="@+id/button5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
             android:layout_marginBottom="16dp"
             android:background="@drawable/button"
             android:text="Buscar"
@@ -296,13 +232,13 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+            app:layout_constraintTop_toBottomOf="@+id/spinner" />
 
         <TextView
             android:id="@+id/textView14"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="--------"
+            android:text="------"
             android:textColor="@color/cardview_light_background"
             android:textSize="42dp"
             app:layout_constraintBottom_toBottomOf="@+id/subtema"
@@ -338,7 +274,7 @@
             android:id="@+id/textView16"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="--------"
+            android:text="------"
             android:textColor="@color/cardview_light_background"
             android:textSize="42dp"
             app:layout_constraintBottom_toBottomOf="@+id/subtema"

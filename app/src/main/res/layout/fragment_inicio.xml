@@ -11,56 +11,6 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <Button
-            android:id="@+id/button2"
-            android:layout_width="240dp"
-            android:layout_height="40dp"
-            android:layout_marginTop="3dp"
-            android:background="#3b5998"
-            android:drawableLeft="@drawable/face"
-            android:padding="8dp"
-            android:text="@string/ingresar_con_facebook"
-            android:textColor="@color/cardview_light_background"
-            android:textColorHighlight="@color/colorPrimary"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/button" />
-
-        <Button
-            android:id="@+id/button"
-            android:layout_width="240dp"
-            android:layout_height="40dp"
-            android:background="#DB4437"
-            android:drawableLeft="@drawable/google"
-            android:padding="8dp"
-            android:text="@string/ingresar_con_google"
-            android:textColor="@color/cardview_light_background"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView" />
-
-        <ImageView
-            android:id="@+id/imageView3"
-            android:layout_width="340dp"
-            android:layout_height="51dp"
-            android:padding="8dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/button2"
-            app:srcCompat="@drawable/div" />
-
-        <TextView
-            android:id="@+id/textView3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:padding="8dp"
-            android:text="@string/ingresa_con_tu_correo"
-            android:textColor="#000"
-            android:textSize="24sp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageView3" />
-
         <TextView
             android:id="@+id/textView4"
             android:layout_width="wrap_content"
@@ -71,7 +21,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.147"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView3" />
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
 
         <TextView
             android:id="@+id/textView5"

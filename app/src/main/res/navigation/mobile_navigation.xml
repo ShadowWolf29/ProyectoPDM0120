@@ -5,21 +5,12 @@
     android:id="@+id/mobile_navigation"
     app:startDestination="@+id/nav_home">
 
-    <fragment
-        android:id="@+id/nav_home"
-        android:name="com.example.myplace.ui.home.HomeFragment"
-        android:label="@string/menu_home"
-        tools:layout="@layout/fragment_home">
-
-        <action
-            android:id="@+id/action_HomeFragment_to_HomeSecondFragment"
-            app:destination="@id/nav_home_second" />
-    </fragment>
+    <!--Sidenav-->
     <fragment
         android:id="@+id/nav_home_second"
-        android:name="com.example.myplace.ui.home.HomeSecondFragment"
+        android:name="com.example.myplace.ui.home.HomeFragment"
         android:label="@string/home_second"
-        tools:layout="@layout/fragment_home_second">
+        tools:layout="@layout/activity_buscador">
         <action
             android:id="@+id/action_HomeSecondFragment_to_HomeFragment"
             app:destination="@id/nav_home" />
@@ -28,16 +19,29 @@
             android:name="myArg"
             app:argType="string" />
     </fragment>
-
+    <!--Buscador-->
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.myplace.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home"/>
+    <!--Guardados-->
     <fragment
         android:id="@+id/nav_gallery"
         android:name="com.example.myplace.ui.gallery.GalleryFragment"
         android:label="@string/menu_gallery"
         tools:layout="@layout/fragment_gallery" />
-
+    <!--Configuracion-->
     <fragment
         android:id="@+id/nav_slideshow"
         android:name="com.example.myplace.ui.slideshow.SlideshowFragment"
         android:label="@string/menu_slideshow"
         tools:layout="@layout/fragment_slideshow" />
+    <!--Terminos y condiciones-->
+    <fragment
+        android:id="@+id/nav_Terms"
+        android:name="com.example.myplace.ui.terms.TermsFragment"
+        android:label="@string/menu_terminos"
+        tools:layout="@layout/freagment_terminos" />
+
 </navigation>
