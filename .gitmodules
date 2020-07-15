@@ -1,0 +1,3 @@
+[submodule "myplace_api"]
+	path = myplace_api
+	url = https://github.com/Nels4UCA/myplace_api.git
