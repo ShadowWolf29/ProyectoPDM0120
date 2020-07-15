@@ -11,7 +11,7 @@
         android:layout_margin="8dp"
         android:background="@drawable/box_buscador"
         android:scrollbarSize="20dp"
-        tools:context=".ui.home.HomeFragment">
+        tools:context="all.app.myplace.ui.home.HomeFragment">
 
         <TextView
             android:id="@+id/subtema3"
@@ -220,7 +220,7 @@
             app:layout_constraintTop_toBottomOf="@+id/subtema4" />
 
         <Button
-            android:id="@+id/button5"
+            android:id="@+id/btnBuscar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"

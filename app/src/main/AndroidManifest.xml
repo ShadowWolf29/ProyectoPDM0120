@@ -10,10 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".Buscador"
+            android:name="all.app.myplace.Buscador"
             android:label="@string/title_activity_buscador"
             android:theme="@style/AppTheme.NoActionBar"></activity>
-        <activity android:name=".MainActivity">
+        <activity android:name="all.app.myplace.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

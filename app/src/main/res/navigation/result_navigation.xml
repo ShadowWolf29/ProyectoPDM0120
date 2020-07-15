@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/result_navigation"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/fragment_resultado"
+        android:name="all.app.myplace.fragment_resultado"
+        android:label="fragment_resultado"
+        tools:layout="@layout/fragment_resultado">
+        <action
+            android:id="@+id/action_fragment_resultado_to_verMas"
+            app:destination="@id/verMas" />
+    </fragment>
+    <fragment
+        android:id="@+id/verMas"
+        android:name="all.app.myplace.verMas"
+        tools:layout="@layout/fragment_ver_mas"/>
+        android:label="verMas" />
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="all.app.myplace.ui.home.HomeFragment"
+        android:label="HomeFragment"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_homeFragment_to_fragment_resultado"
+            app:destination="@id/fragment_resultado" />
+    </fragment>
+</navigation>
